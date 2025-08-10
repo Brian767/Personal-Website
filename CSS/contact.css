@@ -1,9 +1,12 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+  padding: 0;
   }
   
   html, body {
     height: 100%;
+    color: white;
     margin: 0;
     overflow: hidden; 
   }
@@ -45,7 +48,6 @@
   
   .container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -75,6 +77,12 @@
     color: white;
     font-size: 18px;
   }
+  a:hover {
+    color: #f22424;
+  }
+
+
+  
   
   ul {
     padding: 0;
@@ -93,18 +101,9 @@
     bottom: 0;
     width: 100%;
   }
-  
-.aboutMe{
-    width: 500px;
+
+  .links{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    color: white;
-  
   }
   
-  .brianPhoto{
-    width: 400px;
-  }

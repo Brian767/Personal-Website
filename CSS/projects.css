@@ -45,7 +45,6 @@
   
   .container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -94,17 +93,3 @@
     width: 100%;
   }
   
-.aboutMe{
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    color: white;
-  
-  }
-  
-  .brianPhoto{
-    width: 400px;
-  }
