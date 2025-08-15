@@ -8,19 +8,7 @@
     overflow: hidden; 
   }
   
-  /* Base Styles */
-  body {
-  
-    font-family: Arial, sans-serif;
-    color: black;
-    background: #24b8f2;
-    background: radial-gradient(
-      circle,
-      rgba(36, 184, 242, 1) 0%,
-      rgba(87, 199, 133, 1) 48%,
-      rgba(21, 34, 61, 1) 100%
-    );
-  }
+ 
   nav {
     position: fixed;
     top: 0;
