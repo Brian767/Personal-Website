@@ -93,7 +93,6 @@ nav {
 
 .intro {
   width: 1000px;
-  /* height: 300px; */
   display: flex;
   flex-direction: column;
   justify-content: center;

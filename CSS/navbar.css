@@ -16,10 +16,10 @@
     --bg-secondary: #62698af1;
     --bg-tertiary: #616594a6;
     --text-primary: #ffffff;
-    --text-secondary: #6c757d;
+    --text-secondary: #ffffff;
     --accent-color: #006eff;
     --nav-bg: rgba(134, 138, 169, 0.171);
-    --dropdown-bg: rgba(255, 255, 255, 0.253);
+    --dropdown-bg: rgb(131, 158, 182);
     --border-color: rgba(0, 0, 0, 0.1);
 }
 
