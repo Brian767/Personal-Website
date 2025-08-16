@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Brian Personal Website</title>
+    <title>About Me | Brian Ramirez</title>
     <link rel="stylesheet" href="./CSS/index.css" />
     <link rel="stylesheet" href="./CSS/navbar.css" />
     <link rel="stylesheet" href="./CSS/aboutMe.css" />
@@ -27,9 +27,9 @@
           <div class="dropdown-menu" id="dropdownMenu">
             <div class="dropdown-section">
               <div class="dropdown-title">Navigation</div>
-              <a href="index.html" class="dropdown-item active">Home</a>
+              <a href="index.html" class="dropdown-item">Home</a>
               <a href="projects.html" class="dropdown-item">Projects</a>
-              <a href="aboutMe.html" class="dropdown-item">About Me</a>
+              <a href="aboutMe.html" class="dropdown-item active">About Me</a>
               <a href="contact.html" class="dropdown-item">Contact</a>
             </div>
           </div>
@@ -38,17 +38,48 @@
     </nav>
 
     <main class="container">
-      <img class="brianPhoto" src="/img/brianPhoto.png" alt="Photo of Brian" />
-      <div class="aboutMe">
-        <h4>
-          My name is Brian Ramirez and I'm a front-end web developer. I recently
-          graduated from the University of Colorado Boulder with a Bachelors of
-          Arts in Computer Science and a minor in Creative Technology and
-          Design. I'm also passionate about sports, video games and learning new
-          technologies and creative coding.
-        </h4>
+      <div class="about-wrapper">
+        <div class="photo-section">
+          <img class="brianPhoto" src="/img/brianPhoto.png" alt="Photo of Brian Ramirez" />
+        </div>
+        <div class="aboutMe">
+          <h4>
+            Hi! My name is <strong>Brian Ramirez</strong> and I'm a passionate <strong>front-end web developer</strong>. 
+            I recently graduated from the <strong>University of Colorado Boulder</strong> with a Bachelor of Arts in Computer Science 
+            and a minor in Creative Technology and Design.
+            <br><br>
+           
+          </h4>
+        </div>
+      </div>
+
+      <div class="skills-section">
+        <h2 class="skills-title">Skills & Interests</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h5>Frontend Development</h5>
+            <p>HTML, CSS, JavaScript, React, responsive design, and modern web technologies</p>
+          </div>
+          <div class="skill-category">
+            <h5>Creative Technology</h5>
+            <p>Creative coding, interactive design, and bridging the gap between art and technology</p>
+          </div>
+          <div class="skill-category">
+            <h5>Problem Solving</h5>
+            <p>Computer Science fundamentals, algorithms, and logical thinking approaches</p>
+          </div>
+          <div class="skill-category">
+            <h5>Continuous Learning</h5>
+            <p>Always exploring new technologies, frameworks, and industry best practices</p>
+          </div>
+        </div>
       </div>
     </main>
+
+    <footer>
+      <p>Designed and Coded by Brian © 2025</p>
+    </footer>
+
     <script src="./JS/navbar.js"></script>
     <script src="./JS/index.js"></script>
   </body>
