@@ -5,29 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Brian Personal Website</title>
     <link rel="stylesheet" href="./CSS/index.css" />
+    <link rel="stylesheet" href="./CSS/navbar.css" />
     <link rel="stylesheet" href="./CSS/projects.css" />
   </head>
   <body>
     <nav>
       <div class="nav-content">
-        <div class="left-nav">
-          <ul>
-            <li><a href="index.html">BRO</a></li>
-          </ul>
-        </div>
+        <a href="index.html" class="logo">BRO</a>
 
-        <div class="right-nav">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="aboutMe.html">About Me</a></li>
-          </ul>
+        <div class="nav-menu">
+          <button class="theme-toggle-button" id="themeToggleButton">🌙</button>
+
+          <button class="nav-toggle" id="navToggle">
+            <div class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </button>
+
+          <div class="dropdown-menu" id="dropdownMenu">
+            <div class="dropdown-section">
+              <div class="dropdown-title">Navigation</div>
+              <a href="index.html" class="dropdown-item active">Home</a>
+              <a href="projects.html" class="dropdown-item">Projects</a>
+              <a href="aboutMe.html" class="dropdown-item">About Me</a>
+              <a href="contact.html" class="dropdown-item">Contact</a>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
 
     <main class="container"></main>
+    <script src="./JS/navbar.js"></script>
     <script src="./JS/index.js"></script>
   </body>
 </html>

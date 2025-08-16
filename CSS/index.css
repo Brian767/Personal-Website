@@ -33,12 +33,12 @@ body::before {
   height: 100%;
   background-image: radial-gradient(
       2px 2px at 20px 30px,
-      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.4),
       transparent
     ),
     radial-gradient(
       2px 2px at 40px 70px,
-      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.2),
       transparent
     ),
     radial-gradient(1px 1px at 90px 40px, rgba(255, 255, 255, 0.1), transparent),
